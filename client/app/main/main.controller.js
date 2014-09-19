@@ -44,11 +44,14 @@ angular.module('troomlyApp')
     });
 
     // finish url service
+      // makeValid
       // isValid
       // minimize
 
     // generate each type of link as you type
     // space in user name removed and taken to lower case
+
+
 
 
     /////////////// Things

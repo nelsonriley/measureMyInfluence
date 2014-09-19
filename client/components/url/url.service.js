@@ -8,7 +8,7 @@ angular.module('troomlyApp')
       // https://github.com/brentoboy/url-patterns/blob/master/src/urlPatterns.js
       // https://www.npmjs.org/package/url
 
-    var validify = function(url) {
+    var makeValid = function(url) {
       return url;
     };
 
@@ -24,6 +24,7 @@ angular.module('troomlyApp')
     };
 
     return {
+      makeValid: makeValid,
       isValid: isValid,
       minimize: minimize
     };
